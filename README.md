@@ -2,7 +2,7 @@
 
 This is my second project. When the user clicks on the fortune cookie, it shows a random quote.
 
-Click [here](https://aoliveiramagalhaes.github.io/my-time/) to see a demo.
+Click [here](https://aoliveiramagalhaes.github.io/fortune-cookie/) to see a demo.
 
 #### Languages
  * HTML
