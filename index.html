@@ -8,28 +8,26 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Fortune Cookie</title>
     <link rel="icon" type="image/png" href="./images/fortune-cookie.png">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 
 </head>
 
 <body>
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Ask the Fortune Cookie</h1>
-            <p class="lead">Everyone loves cracking open a fortune cookie at the end of a meal. Now you can open as
-                many as you want!.</p>
+            <h1>Ask the Fortune Cookie</h1>
+            <p>Everyone loves cracking open a fortune cookie at the end of a meal.<span> Now you can open as
+                    many as you want!</span></p>
         </div>
     </div>
 
-    <a href="javascript:handleFortuneCookieClick()">
-        <img src="./images/fortune-cookies-click.png" class="rounded mx-auto d-block"
-        alt="fortune cookie image">
-    </a>
-
-    <p class="text-center mt-4">Click on the cookies to see your fortune</p>
-
-      
-        <h1 class="display-4 text-center my-4" id="user-choice"></h1>
-
+    <div class="flex-container">
+        <a href="javascript:handleFortuneCookieClick()">
+            <img src="./images/fortune-cookies-click.png" class="rounded mx-auto d-block" alt="fortune cookie image">
+        </a>
+        <p>Click on the cookies to see your fortune</p>
+        <h2 id="user-choice"></h2>
+    </div>
 
     <script src="./fortune-cookie.js"></script>
 
@@ -44,8 +42,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
